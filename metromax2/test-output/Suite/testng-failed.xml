@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="FD360TC.SubmitDriverApplicationNonCDL">
+        <methods>
+          <include name="Verify_Driver_login"/>
+        </methods>
+      </class> <!-- FD360TC.SubmitDriverApplicationNonCDL -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="FD360TC.SubmitDriverApplicationCDL">
+        <methods>
+          <include name="Verify_Driver_login"/>
+        </methods>
+      </class> <!-- FD360TC.SubmitDriverApplicationCDL -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
